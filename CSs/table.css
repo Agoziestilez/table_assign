@@ -1,0 +1,96 @@
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h4 {
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+/* the first container */
+.cont1 {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* the first table with pink bg */
+.monthly {
+  color: white;
+  background-color: #8A2BE2;
+}
+
+.monthly th:hover,
+.monthly td:hover {
+  background-color: white;
+  color: #8A2BE2;
+}
+
+/* second table with yellow bg */
+.digital {
+  background-color: yellow;
+  color: black;
+  border: 1px solid rgb(59, 12, 134);
+}
+
+.digital th:hover,
+.digital td:hover {
+  background-color: blue;
+  color: white;
+}
+
+.tm {
+  color: white;
+  background-color: blue;
+}
+
+.break {
+  text-align: center;
+}
+
+/* the second container */
+.cont2 {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+
+/* the third table with dark gray bg */
+.digital1 {
+  background-color: #FF4500;
+  color: black;
+  border: 1px solid rgb(59, 12, 134);
+}
+
+.digital1 tr:nth-child(even) {
+  background-color: #444444;
+  color: white;
+}
+
+.digital1 th:hover,
+.digital1 td:hover {
+  background-color: #8A2BE2;
+  color: #ffff;
+}
